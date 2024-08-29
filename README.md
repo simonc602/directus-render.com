@@ -1,63 +1,71 @@
 [![](https://discord.com/api/guilds/1147179893969395872/widget.png?style=banner2)](https://discord.gg/RHJM86fpMP "DirectusBR")
-## Deploy Simplificado com Render.com
+## Simplified Deployment with Render.com
 
-Com o Directus, simplificamos o processo de implantação para você. Nosso botão de deploy rápido no Render.com permite que você inicie um ambiente Directus totalmente funcional com apenas um clique. Não é necessário configuração complicada ou conhecimento avançado em hospedagem. Com essa facilidade, você pode começar a gerenciar seu conteúdo e dados de forma eficaz, sem se preocupar com as complexidades da configuração do servidor. Economize tempo e inicie seu projeto Directus de forma rápida e fácil com o nosso botão de deploy no Render.com.
+With Directus, we've simplified the deployment process for you. Our quick deploy button on Render.com allows you to start a fully functional Directus environment with just one click. No complicated setup or advanced hosting knowledge is required. With this convenience, you can start managing your content and data effectively without worrying about server configuration complexities. Save time and start your Directus project quickly and easily with our deploy button on Render.com.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/directusbr/render/)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/simonc602/directus-render.com/)
 
-[Assista ao vídeo no YouTube](https://youtu.be/Q-vpcxpnKog)
+[Video on YouTube](https://youtu.be/Q-vpcxpnKog)
 
 
-## O que é o Directus e para que ele serve?
+## What is Directus and what is it for?
 
-O **Directus** é uma ferramenta que ajuda a gerenciar informações e conteúdo em um site, aplicativo ou projeto online. É como um sistema organizado que permite que você insira, edite e organize informações facilmente, mesmo que você não seja um programador.
+Directus is a tool that helps manage information and content on a website, application, or online project. It’s like an organized system that allows you to easily enter, edit, and organize information, even if you're not a programmer.
 
-### Para que ele serve?
+### What is it used for?
 
-O **Directus** serve para:
+Directus is used for:
 
-1. **Gerenciar Conteúdo:** Com o Directus, você pode adicionar, editar e excluir textos, imagens, vídeos e outros tipos de informações no seu site ou aplicativo. Isso é útil para manter seu conteúdo atualizado.
+- **Content Management:** With Directus, you can add, edit, and delete texts, images, videos, and other types of information on your website or application. This is useful for keeping your content up to date.
 
-2. **Personalizar o Layout:** Mesmo sem saber programação, você pode ajustar como seu site ou aplicativo é exibido. Pode mudar o design, as cores e a organização das informações.
+- **Layout Customization:** Even without knowing how to program, you can adjust how your website or application is displayed. You can change the design, colors, and organization of the information.
 
-3. **Controlar Acesso:** Você pode decidir quem pode ver e editar as informações no seu projeto. Isso é importante para proteger dados sensíveis e compartilhar informações apenas com as pessoas certas.
+- **Access Control:** You can decide who can view and edit the information in your project. This is important to protect sensitive data and share information only with the right people.
 
-4. **Criar Formulários:** Se você precisa de formulários para coletar informações dos visitantes do seu site, o Directus facilita a criação deles.
+- **Creating Forms:** If you need forms to collect information from your website visitors, Directus makes it easy to create them.
 
-5. **Integrar com Outras Ferramentas:** O Directus é uma plataforma altamente versátil que possibilita a integração perfeita do seu site ou aplicativo com uma variedade de ferramentas e serviços, incluindo sistemas de autenticação de redes sociais e bancos de dados externos. 
+- **Integration with Other Tools:** Directus is a highly versatile platform that allows seamless integration of your website or application with a variety of tools and services, including social media authentication systems and external databases.
 
-6. **Manter um Histórico:** O Directus registra todas as mudanças que você faz, então se algo der errado, você pode voltar atrás facilmente.
+- **Maintaining a History:** Directus logs all the changes you make, so if something goes wrong, you can easily revert to an earlier version.
 
-Em resumo, o **Directus** é como um assistente que ajuda você a gerenciar e atualizar seu site ou aplicativo, mesmo que você não saiba programar. É uma ferramenta útil para quem quer ter controle total sobre seu conteúdo online sem precisar de conhecimentos avançados de programação.
-## Directus: Uma Visão Técnica
+In summary, Directus is like an assistant that helps you manage and update your website or application, even if you don’t know how to code. It’s a useful tool for anyone who wants full control over their online content without needing advanced programming skills.
 
-O **Directus** é um sistema de gerenciamento de conteúdo (CMS) de código aberto que opera como uma camada de abstração sobre um banco de dados relacional. A principal característica técnica do Directus é sua capacidade de expor qualquer banco de dados SQL como uma API RESTful. Vamos mergulhar nos principais componentes e conceitos técnicos que definem o Directus:
+## Directus: A Technical Overview
 
-1. **API RESTful Personalizável:**
-   - O Directus oferece uma API RESTful totalmente personalizável, que permite aos desenvolvedores criar, ler, atualizar e excluir (CRUD) dados no banco de dados subjacente usando solicitações HTTP.
-   - Essa API é altamente configurável, permitindo que os desenvolvedores exponham apenas os recursos e endpoints necessários para atender às necessidades de seus aplicativos.
+Directus is an open-source content management system (CMS) that operates as an abstraction layer over a relational database. The primary technical feature of Directus is its ability to expose any SQL database as a RESTful API. Let’s dive into the key components and technical concepts that define Directus:
 
-2. **Admin Interface:**
-   - O Directus fornece uma interface de administração web que permite que os administradores e editores gerenciem facilmente o conteúdo do aplicativo.
-   - Esta interface é totalmente personalizável e pode ser adaptada para atender aos requisitos de fluxo de trabalho específicos de um projeto.
+### Customizable RESTful API
 
-3. **Controle de Acesso Granular:**
-   - O Directus oferece controle de acesso granular com base em funções, permitindo que os desenvolvedores definam quais usuários ou grupos de usuários têm permissão para acessar, ler ou modificar determinados recursos.
-   - Isso é essencial para garantir a segurança e a integridade dos dados.
+- Directus offers a fully customizable RESTful API that allows developers to create, read, update, and delete (CRUD) data in the underlying database using HTTP requests.
+- This API is highly configurable, enabling developers to expose only the resources and endpoints necessary to meet the needs of their applications.
 
-4. **Personalização de Campos e Relações:**
-   - Os desenvolvedores podem definir campos personalizados e relações complexas entre os dados no Directus.
-   - Isso permite criar estruturas de dados personalizadas para atender às necessidades específicas do projeto.
+### Admin Interface
 
-5. **Integrações e Extensibilidade:**
-   - O Directus é altamente extensível e suporta integrações com outras ferramentas e serviços, tornando-o uma escolha versátil para diversos cenários de desenvolvimento.
-   - Os desenvolvedores podem criar complementos personalizados e usar ganchos para estender ainda mais a funcionalidade do Directus.
+- Directus provides a web-based admin interface that allows administrators and editors to easily manage the application's content.
+- This interface is fully customizable and can be tailored to meet the specific workflow requirements of a project.
 
-6. **Versionamento de Conteúdo:**
-   - O Directus mantém um histórico completo de todas as alterações feitas nos dados, facilitando a auditoria e a recuperação de versões anteriores, se necessário.
+### Granular Access Control
 
-7. **Hospedagem e Implantação Flexíveis:**
-   - O Directus pode ser implantado em diversos ambientes, desde servidores locais até serviços de nuvem.
-   - Ele é compatível com várias opções de banco de dados SQL, como MySQL, PostgreSQL e SQLite.
+- Directus offers granular access control based on roles, allowing developers to define which users or groups of users have permission to access, read, or modify certain resources.
+- This is essential for ensuring data security and integrity.
 
-Em resumo, o Directus é uma poderosa ferramenta de gerenciamento de conteúdo que fornece uma API RESTful altamente personalizável para acessar, manipular e gerenciar dados em um banco de dados relacional. Sua flexibilidade, controle de acesso granular e capacidade de personalização o tornam uma escolha atraente para desenvolvedores que desejam criar aplicativos e sites personalizados com uma experiência de gerenciamento de conteúdo robusta.
+### Custom Fields and Relationships
+
+- Developers can define custom fields and complex relationships between data in Directus.
+- This allows the creation of customized data structures to meet the specific needs of a project.
+
+### Integrations and Extensibility
+
+- Directus is highly extensible and supports integrations with other tools and services, making it a versatile choice for various development scenarios.
+- Developers can create custom plugins and use hooks to further extend Directus’s functionality.
+
+### Content Versioning
+
+- Directus maintains a complete history of all changes made to the data, making it easy to audit and recover previous versions if needed.
+
+### Flexible Hosting and Deployment
+
+- Directus can be deployed in various environments, from local servers to cloud services.
+- It supports multiple SQL database options, such as MySQL, PostgreSQL, and SQLite.
+
+In summary, Directus is a powerful content management tool that provides a highly customizable RESTful API for accessing, manipulating, and managing data in a relational database. Its flexibility, granular access control, and customization capabilities make it an attractive choice for developers looking to create custom applications and websites with robust content management capabilities.
