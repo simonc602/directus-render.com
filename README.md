@@ -1,7 +1,12 @@
+Full credit to the original author: https://github.com/directusbr/render
+
+This guide is an English translation to help you get your Directus instance set up on Render.com. I've adapted the template to mirror an already existing external Supabase database (versus the original Directus db), you can see this in the .yaml file.
+
+
 [![](https://discord.com/api/guilds/1147179893969395872/widget.png?style=banner2)](https://discord.gg/RHJM86fpMP "DirectusBR")
 ## Simplified Deployment with Render.com
 
-With Directus, we've simplified the deployment process for you. Our quick deploy button on Render.com allows you to start a fully functional Directus environment with just one click. No complicated setup or advanced hosting knowledge is required. With this convenience, you can start managing your content and data effectively without worrying about server configuration complexities. Save time and start your Directus project quickly and easily with our deploy button on Render.com.
+With Directus, we've simplified the deployment process for you. Our quick deploy button on Render.com allows you to start a fully functional Directus environment with just one click. No complicated setup or advanced hosting knowledge is required. With this convenience, you can start managing your content and data effectively without worrying about server configuration complexities. Follow the instructions to deploy.
 
 [![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/simonc602/directus-render.com/)
 
@@ -89,5 +94,15 @@ In summary, Directus is a powerful content management tool that provides a highl
 
 ### Access Your Directus Instance:
 - Once the deployment is complete, you can access your Directus instance using the provided URL from Render.
+
+### To Mirror Your Supabase Database (or other database)
+- Go to your deployment in Render.com
+- Set up environment variables: (For sensitive information like database credentials, it's better to use Render's environment variables rather than hardcoding them in the YAML file.)
+- For example, add your Supabase database credentials under the following keys:
+  - DB_HOST
+  - DB_PORT
+  - DB_DATABASE
+  - DB_USER
+  - DB_PASSWORD
 
 This configuration should successfully deploy Directus on Render.com with minimal manual setup.
