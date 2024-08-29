@@ -4,7 +4,7 @@ services:
     runtime: image
     autoDeploy: false
     image:
-      url: docker.io/directus/directus:11.0.2
+      url: docker.io/directus/directus:latest
     plan: free
     healthCheckPath: /server/health
     envVars:
