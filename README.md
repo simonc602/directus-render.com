@@ -69,3 +69,24 @@ Directus is an open-source content management system (CMS) that operates as an a
 - It supports multiple SQL database options, such as MySQL, PostgreSQL, and SQLite.
 
 In summary, Directus is a powerful content management tool that provides a highly customizable RESTful API for accessing, manipulating, and managing data in a relational database. Its flexibility, granular access control, and customization capabilities make it an attractive choice for developers looking to create custom applications and websites with robust content management capabilities.
+
+### Steps to Deploy:
+## Fork the Repository:
+- Fork the repository on GitHub where this YAML file is located.
+
+## Connect GitHub to Render:
+- Log in to your Render.com account and connect it to your GitHub account.
+
+## Create a New Web Service:
+- Click on "New" -> "Web Service" and select your forked repository.
+
+## Select Branch:
+- Choose the branch with the render.yaml file. By default, this is usually the main branch.
+
+## Deploy:
+- Render will automatically read the render.yaml file and start deploying your service. It will also set up the database and link it to your Directus instance.
+
+## Access Your Directus Instance:
+- Once the deployment is complete, you can access your Directus instance using the provided URL from Render.
+
+This configuration should successfully deploy Directus on Render.com with minimal manual setup.
