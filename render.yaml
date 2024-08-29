@@ -1,32 +1,5 @@
 services:
   - type: web
-    name: directus
-    runtime: image
-    autoDeploy: false
-    image:
-      url: docker.io/directus/directus:latest
-    plan: free
-    healthCheckPath: /server/health
-    envVars:
-      - key: KEY
-        generateValue: true
-      - key: SECRET
-        generateValue: true
-      - key: ADMIN_EMAIL
-        value: admin@example.com
-      - key: ADMIN_PASSWORD
-        generateValue: true
-      - key: DB_CLIENT
-        value: pg
-      - key: DB_SSL__REJECT_UNAUTHORIZED
-        value: "false"
-      - key: DB_CONNECTION_STRING
-        fromDatabase:
-          name: directus
-          property: connectionString    
-
-services:
-  - type: web
     name: directus-self-host
     runtime: image
     autoDeploy: false
