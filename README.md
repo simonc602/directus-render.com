@@ -2,13 +2,9 @@ Full credit to the original author: https://github.com/directusbr/render
 
 This guide is an English translation to help you get your Directus instance set up on Render.com. I've adapted the template to mirror an already existing external Supabase database (versus the original Directus db), you can see this in the .yaml file.
 
-
-[![](https://discord.com/api/guilds/1147179893969395872/widget.png?style=banner2)](https://discord.gg/RHJM86fpMP "DirectusBR")
 ## Simplified Deployment with Render.com
 
 With Directus, we've simplified the deployment process for you. Our quick deploy button on Render.com allows you to start a fully functional Directus environment with just one click. No complicated setup or advanced hosting knowledge is required. With this convenience, you can start managing your content and data effectively without worrying about server configuration complexities. Follow the instructions to deploy.
-
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/simonc602/directus-render.com/)
 
 [Video on YouTube](https://youtu.be/Q-vpcxpnKog)
 
