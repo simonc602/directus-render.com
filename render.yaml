@@ -1,9 +1,10 @@
 services:
   - type: web
     name: directus-self-host
-    env: docker
-    image: directus/directus:11.0.2
+    runtime: image
     autoDeploy: false
+    image:
+      url: docker.io/directus/directus:latest
     plan: free
     healthCheckPath: /server/health
     envVars:
