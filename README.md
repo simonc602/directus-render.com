@@ -79,8 +79,8 @@ In summary, Directus is a powerful content management tool that provides a highl
 ### Connect GitHub to Render:
 - Log in to your Render.com account and connect it to your GitHub account.
 
-### Create a New Web Service:
-- Click on "New" -> "Web Service" and select your forked repository.
+### Create a New Blueprint:
+- Click on "New" -> "Blueprint" and select your forked repository / copy in the public github address.
 
 ### Select Branch:
 - Choose the branch with the render.yaml file. By default, this is usually the main branch.
