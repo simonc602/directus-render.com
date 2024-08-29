@@ -1,11 +1,9 @@
 services:
   - type: web
     name: directus-self-host
-    runtime: image
+    env: docker
+    image: directus/directus:11.0.2
     autoDeploy: false
-    image:
-      url: directus/directus:11.0.2
-      pullPolicy: always
     plan: free
     healthCheckPath: /server/health
     envVars:
