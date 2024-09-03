@@ -94,6 +94,7 @@ In summary, Directus is a powerful content management tool that provides a highl
 ### To Mirror Your Supabase Database (or other database)
 - Go to your deployment in Render.com
 - Set up environment variables: (For sensitive information like database credentials, it's better to use Render's environment variables rather than hardcoding them in the YAML file.)
+- Go to your Supabase or Other Database dashboard and find credentials to link the two accounts. 
 - For example, add your Supabase database credentials under the following keys:
   - DB_HOST
   - DB_PORT
