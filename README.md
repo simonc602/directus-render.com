@@ -102,4 +102,20 @@ In summary, Directus is a powerful content management tool that provides a highl
   - DB_USER
   - DB_PASSWORD
 
-This configuration should successfully deploy Directus on Render.com with minimal manual setup.
+## GitHub Secrets for Docker Hub Authentication
+
+This project uses GitHub Secrets to securely store Docker Hub credentials. To set this up in a cloned repository:
+
+1. Go to your GitHub repository
+2. Navigate to Settings > Secrets and variables > Actions
+3. Add two new repository secrets:
+   - DOCKER_USERNAME: Your Docker Hub username
+   - DOCKER_PASSWORD: Your Docker Hub access token (preferred) or password
+
+To create a Docker Hub access token:
+1. Log in to Docker Hub
+2. Go to Account Settings > Security
+3. Click "New Access Token", give it a name, and copy the token
+4. Use this token as the DOCKER_PASSWORD in GitHub Secrets
+
+Never share your Docker Hub password or access token publicly. Using GitHub Secrets ensures these credentials are encrypted and only used during the GitHub Actions workflow execution.
